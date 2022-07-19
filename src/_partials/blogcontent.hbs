@@ -1,0 +1,25 @@
+  <div id="content">
+    <section id="introSection">
+    <img class="img-banner" src="../img/banner.png" />
+    <img class="img-circle" src="../img/logo2.png" />
+    <p><a href="../blog/index.html">&#8592; back to blog homepage</a></p>
+    <div class="contentWrapper">
+        <div class="blogContent">
+
+                {{#if kicker}}
+                    <p class="kicker super-font">{{kicker}}</p>
+                {{/if}}
+                {{#if headline}}
+                    <h1 class="headline super-font">{{headline}}</h1>
+                {{/if}}
+                {{#if author}}
+                    <p class="credit super-font">By {{author}}</p>
+                {{/if}}
+                {{#if publish_date}}
+                    <p class="date sub-font">Published {{publish_date}}</p>
+                {{/if}}
+                {{#if intro}}
+                <p class="intro">{{ intro }}</p>
+                {{/if}}
+
+        </div>

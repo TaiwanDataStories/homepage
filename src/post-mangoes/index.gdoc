@@ -1,0 +1,9 @@
+---
+title: sample project
+gdoc: https://docs.google.com/document/d/1QuVzJsgwPe6vdz4blX2QA5mibAlhZGOgfSexjTn2QtQ/edit?usp=sharing
+---
+
+{{> blogheader }}
+{{> blogcontent }}
+{{{ processed_content }}}
+{{> blogfooter }}

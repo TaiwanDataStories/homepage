@@ -1,0 +1,128 @@
+.contentWrapper{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.blogContent{
+    margin-top: 100px;
+}
+
+.contentWrapper img{
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+
+.contentWrapper h4{
+    background-color: #33baae;
+    color: white;
+    padding:5px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.contentWrapper h5{
+    color: #e17b4a;
+    padding:5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contentWrapper h6{
+    font-size: 18px;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contentWrapper h2 + p img{
+    display:inline;
+    max-width: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contentWrapper h2, .contentWrapper p{
+    display: inline;
+}
+
+#bloginner {
+	max-width: 1000px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-top:80px; */
+}
+
+.blogpostsinner {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	padding: 0 0;
+}
+
+#recentposts {
+	/* background-color:white; */
+}
+
+.post {
+	position: relative;
+	width: 100%;
+	margin: 0 0 1px 0;
+	padding: 50px 0 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.titlehr {
+	height: 3px;
+	background-color: black;
+	max-width: 80px;
+	align: left;
+	margin-left: 0;
+}
+
+.postseperatorhr {
+	height: 0.5px;
+	background-color: lightgray;
+	width: 100%;
+	clear: both;
+}
+
+.post h2 {
+	line-height: 36px;
+	font-weight: 700;
+	font-style: normal;
+	color: #222222;
+	font-size: 30px;
+	opacity: 1;
+	margin: 35px 0 20px 0;
+	visibility: visible;
+	-webkit-transition: opacity 0.24s ease-in-out;
+	-moz-transition: opacity 0.24s ease-in-out;
+	transition: opacity 0.24s ease-in-out;
+}
+
+.post a {
+	color: black;
+}
+
+.date {
+	color: #6bbaa7;
+	padding: 5px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.kicker{
+	color: lightslategray;
+	font-style: italic;
+}

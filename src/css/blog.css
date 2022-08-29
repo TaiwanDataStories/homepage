@@ -1,5 +1,8 @@
+.navOption{
+	padding: 10px;
+}
 .contentWrapper{
-    max-width: 1000px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -70,10 +73,6 @@
 	padding: 0 0;
 }
 
-#recentposts {
-	/* background-color:white; */
-}
-
 .post {
 	position: relative;
 	width: 100%;
@@ -125,4 +124,16 @@
 .kicker{
 	color: lightslategray;
 	font-style: italic;
+}
+
+p{
+	font-size:18px;
+	line-height: 26px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+li{
+	font-size:18px;
+	line-height: 26px;
 }

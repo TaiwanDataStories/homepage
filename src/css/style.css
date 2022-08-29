@@ -146,6 +146,7 @@ img,
 }
 
 #language {
+  padding:10px;
   position: absolute;
   font-weight: 700;
   z-index: 100;
